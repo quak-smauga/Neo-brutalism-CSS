@@ -82,6 +82,29 @@
     font-size: 0.9rem;
 }
 
+/* Select */
+.neo-select {
+    background: var(--light);
+    color: var(--dark);
+    border: var(--border-width) solid var(--dark);
+    padding: 4px 10px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: var(--shadow-offset) var(--shadow-offset) 0 var(--dark);
+    transition: all var(--transition-speed) var(--transition-ease);
+    text-decoration: none;
+    display: inline-block;
+}
+.neo-select:open {
+    transform: translate(-2px, -2px);
+    box-shadow: calc(var(--shadow-offset) + 2px) calc(var(--shadow-offset) + 2px) 0 var(--dark);
+}
+.neo-select:hover:not(:active):not(:open){
+    background: rgba(0, 0, 0, 0.2);
+}
+
 /* Cards */
 .neo-card {
     background-color: var(--light);
