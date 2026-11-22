@@ -81,6 +81,23 @@ Neo-brutalism in web design is characterized by:
 <button class="neo-btn neo-btn-sm">Small Button</button>
 ```
 
+### Inputs
+
+```html
+<input class="neo-input" type="text" placeholder="placeholder">
+
+<!-- Sizes -->
+<input class="neo-input neo-input-sm" type="text" placeholder="placeholder">
+```
+
+### Select
+
+```html
+<select class="neo-select" name="select">
+    <!-- Options -->
+</select>
+```
+
 ### Cards
 
 ```html
