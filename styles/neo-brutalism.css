@@ -97,10 +97,12 @@
     text-decoration: none;
     display: inline-block;
 }
+
 .neo-select:open {
     transform: translate(-2px, -2px);
     box-shadow: calc(var(--shadow-offset) + 2px) calc(var(--shadow-offset) + 2px) 0 var(--dark);
 }
+
 .neo-select:hover:not(:active):not(:open){
     background: rgba(0, 0, 0, 0.2);
 }
